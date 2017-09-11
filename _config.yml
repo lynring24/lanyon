@@ -14,9 +14,9 @@ paginate:            5
 
 # About/contact
 author:
-  name:              Mark Otto
+  name:              lynring24
   url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  email:            lync2846@gmail.com
 
 # Custom vars
 version:             1.0.0
@@ -24,3 +24,6 @@ version:             1.0.0
 # Custom Highlighter
 highlighter:         rouge
 highlighter:         pygments
+
+#encoding
+encoding: utf-8
