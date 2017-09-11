@@ -2,7 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-relative_permalinks: true
+# relative_permalinks: true //v3.0 Error occurs
 
 # Setup
 title:               Lanyon
@@ -23,7 +23,6 @@ version:             1.0.0
 
 # Custom Highlighter
 highlighter:         rouge
-highlighter:         pygments
 
 #encoding
 encoding: utf-8
