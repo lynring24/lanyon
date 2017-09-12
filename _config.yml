@@ -28,4 +28,4 @@ highlighter:         rouge
 encoding: utf-8
 
 #Gems
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
