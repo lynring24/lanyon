@@ -26,3 +26,6 @@ highlighter:         rouge
 
 #encoding
 encoding: utf-8
+
+#Gems
+gems: [jekyll-paginate]
