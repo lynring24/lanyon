@@ -1,0 +1,25 @@
+---
+layout: post
+title: 병아리 개발자의 깃허브와 지킬을 사용한 블로그 시작하기
+---
+
+그 동안 코딩이 세상의 전부였던 줄 알았었는데, 세미나랑 커뮤니티를 돌아다니면서 '블로그'도 있다는 걸 알았다.<br>밍기적 거리다가 시작해보았다. 블로그.
+
+## 마음에 드는 디자인 고르기
+먼저 마음에 드는 디자인 jekyll을 GitHub에서 고르고 포크한다. 깔끔하고 sidebar가 있는 [Lanyon](http://lanyon.getpoole.com/)을 골랐다.
+
+## jekyll 설치하기
+여기서부터 여러번의 삽질이 있었다. 사용하고 있는 os가 window 10이라, [@juthilo](http://jekyll-windows.juthilo.com/)을 참고했다.
+1. Ruby를 설치
+2. RubyDevKit를 설치
+3. Ruby Gem(sw 설치 패키지)로 jekyll, rouge, wdm설치
+
+~~분명 간단해 보였는데, 블로그 생성이 진입장벽이었다.~~
+###### 내가 겪은 에러들
++ winodw public suffix requires Ruby version>=2.1<br> 다시 설치했다.
++ `_config.yml`에서 `highlighter:`에 rouge와 pygments를 넣었는데, pygments를 지원을 하지 않는다는 오류가 있어서 추가했다가 지웠다.
++ Configuration file:none<br>Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `plugins: [jekyll-paginate]` in your configuration file.
+<br> `_config.yml`에 `plugins: [jekyll-paginate]`을 추가해주고 나서야 벗어 날 수 있었다.
+
+>사실 이보다 에러가 더 많았었는데, 부끄러워서가 아니고 하도 에러들을 봤더니 기억이 나질 않는다.
+>우분투를 사용하고 있는 친구는 큰 어려움이 없었다고 한다.
