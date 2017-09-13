@@ -8,14 +8,14 @@ permalink:           pretty
 title:               lynring24
 tagline:             'blog'
 description:         '햇병아리가 멋모르고 운영하는 블로그'
-url:                 http://lanyon.getpoole.com
+url:                 https://lynring24.github.io
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
   name:              lynring24
-  url:               https://twitter.com/mdo
+  url:
   email:            lync2846@gmail.com
 
 # Custom vars
