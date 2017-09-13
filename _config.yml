@@ -7,7 +7,7 @@ permalink:           pretty
 # Setup
 title:               lynring24
 tagline:             'blog'
-description:         'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:         '햇병아리가 멋모르고 운영하는 블로그'
 url:                 http://lanyon.getpoole.com
 baseurl:             ''
 paginate:            5
