@@ -1,6 +1,6 @@
 ---
-layout: post
-title: testing pages2
+layout: android
+title: testing pages
 date: 2017-09-14 20:45:00
 category: Android
 ---
