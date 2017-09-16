@@ -1,7 +1,7 @@
 ---
 layout: post
 title: jekyll
-categories: [Blog,jekyll]
+categories: Blog
 ---
 
 jekyll을 모르고 블로그를 커스텀하려니까 막막한데, 사실 문서를 봐도 딱히 와닿지 않아서 야매로 정리해봤다.
