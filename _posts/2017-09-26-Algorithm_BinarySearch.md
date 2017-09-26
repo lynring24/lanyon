@@ -10,7 +10,6 @@ Binary Search는 n개의 정렬된 (정수) 배열 중에서 key의 인덱스 �
 
 ### iteration을 사용한 binary Search
 {% highlight java %}
-<```
 public int binarySearch(int [] numbers, int low, int high, int key){
 		while(low<high){
 			int mid= Math.floorDiv(low+high,2);
@@ -23,8 +22,6 @@ public int binarySearch(int [] numbers, int low, int high, int key){
 		}
 		return -1;
 	}
-
-```
 {% endhighlight %}
 
 ### recursion을 사용한 binary Search
