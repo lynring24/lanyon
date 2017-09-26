@@ -7,7 +7,6 @@ categories: Blog
 jekyll을 모르고 블로그를 커스텀하려니까 막막한데, 사실 문서를 봐도 딱히 와닿지 않아서 야매로 정리해봤다.
 
 # jekyll의 디럭토리 구조
-<pre>
 `.
 ├── _config.yml
 ├── _data
