@@ -3,7 +3,7 @@ layout: post
 title: Binary Search(iteration/recursion)
 categories: Algorithm
 ---
-Binary Search는 n개의 정렬된 (정수) 배열 중에서 key의 인덱스 위치를 알려준다.
+Binary Search는 길이 n의 정렬된 (정수) 배열 중에서 key의 인덱스 위치를 알려준다.
 + sorted array
 + wost case = O( log(n) )
 + best case = Ω( 1 )
