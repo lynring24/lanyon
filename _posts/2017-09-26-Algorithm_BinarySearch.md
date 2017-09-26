@@ -26,7 +26,6 @@ public int binarySearch(int [] numbers, int low, int high, int key){
 
 ### recursion을 사용한 binary Search
 {% highlight java %}
-<```
 public int search(int [] numbers, int low, int high, int key){
 		if(low>=high) return -1;
 		else{
@@ -39,6 +38,4 @@ public int search(int [] numbers, int low, int high, int key){
 				return search(numbers,mid+1,high, key);
 		}
 	}
-
-```
 {% endhighlight %}
