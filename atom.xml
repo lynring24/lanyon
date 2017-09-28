@@ -17,9 +17,8 @@ layout: null
 
  {% for post in site.posts %}
  <entry>
-   <title><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></title>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <h><link href="{{ site.url }}{{ post.url }}">{{ post.title }}<></h>
  </entry>
-  <hr>
  {% endfor %}
+
 </feed>
