@@ -19,8 +19,7 @@ layout: null
  <entry>
    <title><link href="{{ site.url }}{{ post.url }}">{{ post.title }}</link></title>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <hr>
  </entry>
+  <hr>
  {% endfor %}
-
 </feed>
