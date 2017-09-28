@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Merge Sort
+title: Merge Sort2
 categories: Algorithm
 ---
 Merge Sort는 길이 n의 정렬된 (정수) 배열을 Divide & Conquer 방식으로 정렬한다.
