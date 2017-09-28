@@ -55,9 +55,9 @@ public void mergeSort(int[] numbers,int low, int high){
 		왼쪽이든 오른쪽이든 한쪽만 옮기면 되는 경우 <br> 비교 : n/2
 	+ Worst case
 		왼쪽 오른쪽을 모두 비교해야하는 경우 <br> 비교 : n
+
 	따라서 `T(n)=2*T(n/2)+ c*n` //c는 상수
 
-	{% highlight %}
 	let n=2^k,
 		T(n)= 2*T(n/2)+ c*n
 			  = 2*(2*T(n/2^2)+ c*n/2)+ c*n
@@ -65,5 +65,3 @@ public void mergeSort(int[] numbers,int low, int high){
 				= (2^k) * T( n/(2^k) ) + c*n*k
 				= n*T(1)+ n*c*(log2(n))
 		--> θ(n*log2(n))
-	{% endhighlight %}	 
-----
