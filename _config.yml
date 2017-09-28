@@ -7,7 +7,7 @@ permalink:           pretty
 # Setup
 title:               lynring24
 tagline:             'blog'
-description:         '햇병아리가 멋모르고 운영하는 블로그'
+description:         '멋모르고 운영하는 블로그'
 url:                 https://lynring24.github.io
 baseurl:             ''
 paginate:            5
