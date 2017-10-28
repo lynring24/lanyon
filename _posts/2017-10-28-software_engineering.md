@@ -3,10 +3,9 @@ layout: post
 title: Software Engineering
 categories: lecture_2017_2
 ---
-
 This semester I'm taking a lecture about Software Enginnering. This is the first time learning how to 'produce softtware efficently' rather than 'what is the software' and 'what is the computer hardware'.
 
-#### What is a 'software'?
+### What is a 'software'?
   Sortware is a computer program associated with documentation.
   Documentation may include manuals for clients, requiremet description for developers and etc.
   There are personal software and professional sofware.
@@ -15,8 +14,7 @@ This semester I'm taking a lecture about Software Enginnering. This is the first
     b. professional sotware is a software for bussiness purpose, probably developed by teams.
        Usually software engineering is about producing professional software.
 
-##### What is a good software?
-
+#### What is a good software?
     + Requrement : must satisfies clients needs
       * funcional : the functional needs for software
       * non - funcional : may be the performace of the funcion.
