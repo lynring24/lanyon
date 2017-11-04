@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Software Engineering
-categories: lecture_2017_2
+title: What is a Software Engineering
+categories: software engineering
 ---
 This semester I'm taking a lecture about Software Enginnering. This is the first time learning how to 'produce softtware efficently' rather than 'what is the software' and 'what is the computer hardware'.
 
@@ -15,18 +15,18 @@ This semester I'm taking a lecture about Software Enginnering. This is the first
        Usually software engineering is about producing professional software.
 
 #### What is a good software?
-    + Requrement : must satisfies clients needs
+    - Requrement : must satisfies clients needs
       * funcional : the functional needs for software
       * non - funcional : may be the performace of the funcion.
-    + Dependancy
+    - Dependancy
       * reliablity :  should be trustworthy
       * security : should have a restriction about the programs
       * satefy : should give the least damage (physically and financially) when the program is break down.
-    + Maintenance
+    - Maintenance
        the structure and code should be clean and neat the implement over and over.
-    + Efficiency
+    - Efficiency
        just like other feilds, efficiency by small resources(cpu, memory, drives) with large output is important
-    + Acceptance
+    - Acceptance
       rather it matches with clients environment(may be platform, real data) or UI
 
    > One silly thing is that every computer language starts with what is a 'software' or 'os' but just after mid-term, the defintion is gone out of my brain.
