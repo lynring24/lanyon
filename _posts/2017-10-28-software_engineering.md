@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What is a Software Engineering
-categories: software engineering
+categories: Engineering
 ---
 This semester I'm taking a lecture about Software Enginnering. This is the first time learning how to 'produce softtware efficently' rather than 'what is the software' and 'what is the computer hardware'.
 

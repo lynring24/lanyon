@@ -9,17 +9,20 @@ categories: Network
  Last semester I've taken a web system programming class, programming a web application and learn about http and jsp as a preview of network.
 
 ### Internet, Web and Protocol
-  Internet.
-   network of networks
-   infrastructure for providing network applications
-  provides program interface for application
-  Web(World Wide Web)
-   just one of the way to send information in internet (another example might be a Mail Service (port : 25))
-   uses http for Protocol
-   hyper text and URLs
-  Protocol
-  * an agreement of message format, order and actions to operate when messsage is transmitted/received for communication between hosts.
+<pre>
+  <b>Internet.</b>
+      network of networks
+      infrastructure for providing network applications
+      provides program interface for application
 
+<b>Web(World Wide Web)</b>
+      just one of the way to send information in internet (another example might be a Mail Service (port : 25))
+      uses http for Protocol
+      hyper text and URLs
+
+<b>Protocol</b>
+     n agreement of message format, order and actions to operate when messsage is transmitted/received for communication between hosts.
+</pre>
 ### Internet Elements
   consist of
    - host/terminal/end system
@@ -42,13 +45,13 @@ categories: Network
           Wireless LAN is for local
           WAN is for wide area, works in cellular units.
           There are also PAN and etc.
+
           </pre>
-          <br>
    Phsical Media
           Guided Medias : Copper, Coaxial, fiber Optic Cable<br>
           Unguided Medias : radio, satellites
 
-     Network Core
+   Network Core
     <pre>
           Global ISPS/ Regional ISP and CDN (Content Distributon Network)
           Global ISPs have much bigger range than Regionl ISPS.
