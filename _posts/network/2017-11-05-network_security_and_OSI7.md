@@ -9,7 +9,7 @@ Networks are constructed in layers. It's because by modulization, the operation 
  According to ISO/OSI layers, it's divided into 7 parts, but Internet consider it to be 5.
 <br>
 <pre>
-  7 Applicaion    Supports network application
+  7 Application    Supports network application
   6 Presentation   Data Interpretation such as encryption
   5 Sessoin       checkpointing, syncrnizin, recover from crashes
   4 Transport     process - procses data transfer Protocol
@@ -23,7 +23,7 @@ Only the end system handles from transort level to application (all the 7layers)
 
 ## Encapsulation / Decapsulation
 <pre>
-applicaiont     message
+application     message
 transport       message segment
 network         message segment datagram
 links           message segment datagram frame  </pre>
