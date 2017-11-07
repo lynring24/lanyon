@@ -15,18 +15,22 @@ This semester I'm taking a lecture about Software Enginnering. This is the first
        Usually software engineering is about producing professional software.
 
 #### What is a good software?
-    - Requrement : must satisfies clients needs
-      * funcional : the functional needs for software
-      * non - funcional : may be the performace of the funcion.
-    - Dependancy
-      * reliablity :  should be trustworthy
-      * security : should have a restriction about the programs
-      * satefy : should give the least damage (physically and financially) when the program is break down.
-    - Maintenance
+
+    + Requrement : must satisfies clients needs
+       funcional : the functional needs for software
+       non - funcional : may be the performace of the funcion.
+
+    + Dependancy
+       reliablity :  should be trustworthy
+       security : should have a restriction about the programs
+       satefy : should give the least damage (physically and financially) when the program is break down.
+
+   + Maintenance
        the structure and code should be clean and neat the implement over and over.
-    - Efficiency
+
+   + Efficiency
        just like other feilds, efficiency by small resources(cpu, memory, drives) with large output is important
-    - Acceptance
+   + Acceptance
       rather it matches with clients environment(may be platform, real data) or UI
 
    > One silly thing is that every computer language starts with what is a 'software' or 'os' but just after mid-term, the defintion is gone out of my brain.
@@ -36,6 +40,7 @@ This semester I'm taking a lecture about Software Enginnering. This is the first
     May be about theories, methods or tools.
     Software production could be failed when the project is out of budget or deadline, because of changed requirement or poor management.
     Software engineering is about how to manage and protect from failure.
+
      * process
      * Requrement
      * reuse
