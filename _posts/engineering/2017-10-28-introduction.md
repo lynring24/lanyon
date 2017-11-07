@@ -27,7 +27,7 @@ c.  satefy : should give the least damage (physically and financially) when the 
 the structure and code should be clean and neat the implement over and over.
 ##### 4. Efficiency
 just like other feilds, efficiency by small resources(cpu, memory, drives) with large output is important
-   ##### 5. Acceptance
+##### 5. Acceptance
 rather it matches with clients environment(may be platform, real data) or UI
    > One silly thing is that every computer language starts with what is a 'software' or 'os' but just after mid-term, the defintion is gone out of my brain.
 
