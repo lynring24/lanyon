@@ -5,29 +5,32 @@ date: 2017-11-08 01:10:00
 categories: Network
 ---
 
- Application is what people use. It could be a mail service, Internet and etc. <br>
+ Applications are what people use. It could be a mail service, Internet and etc. <br>
  Application layer protocols support these network application, sending message in right format, order and other operation needed to handle messages.
 
 ### Architecture
  A. Client and Server <br>
-   <pre>
-      Server waits for client to call and ask for the service and client starts the connection(exchane message).<br>
-      Since server has to handle multiple calls from N-clients, it doesn't have a scalability.
-   </pre>    
+  <pre>
+  Server waits for client to call and ask for the service and client starts the connection(exchane message).
+  Since server has to handle multiple calls from N-clients, it doesn't have a scalability.
+  </pre>    
  B. Peer to peer (P2P)
-    <pre>  
-      The end system itself is a client and a server. Hosts are logically connected.<br>
-      New peer becomes new server so p2p architectures have scalability.
-    </pre>  
+ <pre>
+  The end system itself is a client and a server. Hosts are logically connected.
+  New peer becomes new server so p2p architectures have scalability.
+</pre>
 ### Process and Socket
-Process is an operation(or could be a program) run on host. <br>
-if client == server (on same host)  process is inter-leaved or else the message from process will be send by socket. <br>
-Socket controls how process being sent with parameters, located in higher level than transport level. <br>
-Once the message passes through the socket, remain works are up to OS.
+<pre>
+Process is an operation(or could be a program) run on host.
 
+if client == server (on same host)  process is inter-leaved or else the message from process will be send by socket.
+
+Socket controls how process being sent with parameters, located in higher level than transport level.
+Once the message passes through the socket, remain works are up to OS.
+</pre>
 ### Protocol and Transport service
 ####  Protocol of this level hanles
-  1. message type = (request || response)
+  1. message type = (request or response)
   2. check the syntax of message
   3. semantics of message
   4. when and how to send/receive
