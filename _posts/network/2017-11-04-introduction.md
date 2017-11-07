@@ -33,13 +33,15 @@ categories: Network
 - Enterprise access network
 -  Mobile access network.
 
-##### a. Residential(home) access network
-Techniques used at home access network are ADSL(asymmetric digital subscriber line) and Cable. ADSL modem at home is conneted to the centeral office, which has dsl multiplexer. Then, the central office connects the line to ISP. <br>On the other hand, cables are connected to headend(Cable Modem Termination System). CMTS connects the line to ISP.
+<pre>
+  a. Residential(home) access network
+  Techniques used at home access network are ADSL(asymmetric digital subscriber line) and Cable. ADSL modem at home is conneted to the centeral office, which has dsl multiplexer. Then, the central office connects the line to ISP. <br>On the other hand, cables are connected to headend(Cable Modem Termination System). CMTS connects the line to ISP.
 
-##### b. Enterprise access network( Ethernet )
+  b. Enterprise access network( Ethernet )
 
-##### c. Mobile access network
-Techniques used for mobile access nets are divided by the range it could cover. Wireless LAN is for local. WAN is for wide area, works in cellular units. There are also PAN and etc.
+  c. Mobile access network <br>
+  Techniques used for mobile access nets are divided by the range it could cover. Wireless LAN is for local. WAN is for wide area, works in cellular units. There are also PAN and etc.
+</pre>
 
 ### 2. Phsical Media
 - Guided Medias : Copper, Coaxial, fiber Optic Cable<br>
