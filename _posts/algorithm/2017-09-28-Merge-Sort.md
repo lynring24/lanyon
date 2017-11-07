@@ -15,13 +15,14 @@ public void mergeSort(int[] numbers,int low, int high) {
 			merge(numbers,low,mid,high); // Combine(Conquer)
 		}
 	}
+
 public void merge(int[] numbers,int low, int mid, int high){
 		int leftIndex=low;
 		int rightIndex=mid+1;
 		int tempIndex=0;
 		int [] tempArray = new int [numbers.length];
 
-	while(leftIndex<=mid && rightIndex<=high){
+		while(leftIndex<=mid && rightIndex<=high){
 			if(numbers[leftIndex]<numbers[rightIndex])
 				tempArray[tempIndex++]=numbers[leftIndex++];
 			else
@@ -41,7 +42,6 @@ public void merge(int[] numbers,int low, int mid, int high){
 
 	}
 {% endhighlight %}
-
 
 ### MergeSort Time Complexity
 
