@@ -38,8 +38,10 @@ On client Side
   - virus
   - spyware
   - botnet
+
 On Server
-  - DoS, DDos
+  + DoS, DDos
+
 On link
-  - Packet Sniffing
-  - IP Spoofing
+  * Packet Sniffing
+  * IP Spoofing
