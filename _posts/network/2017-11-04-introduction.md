@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introduction of Network
+title: Introduction of Network 
 categories: Network
 ---
 

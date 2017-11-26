@@ -3,13 +3,7 @@ layout: post
 title: Applications
 categories: Network
 ---
-# Applications
-  - Web
-  - Mail
-  - Domain Name system
-  - Multimedia with Content Distribution Network
-
-##  World Wide Web
+#  World Wide Web
 Web is a service between browser(client) and web server. <br>
 Browser request HTML file with objects and server response by sending it.
 
@@ -27,10 +21,10 @@ HTTP could be divided into persistent HTTP and non-persistent HTTP
 
 HTTP is statelss which means it doesn't care or store backlogs. To support the state, cookie file is used instead.
 
-##### Web Cache
+### Web Cache
 Browser could request a file through web cache if there are file it wants rather than accessing the original server. Requesting delay became shorter and the traffic for link and original server has een distributed. However, the files in cache could be out-dated ones so web cache asks the original server if there are any changes before response. This is called a 'conditional get'.
-
-## Mail
+---
+# Mail
 Mail systems contain three components : User Agent, Mail server , SMTP protocol.<br>
 Client writes mail through user agent. Then the agent send the mail to writer's mail server by SMTP and put in the mail buffer. Mail server opens the TCP and passes the mail to receiver's mail server and put it in receiver's mail box. On receiver side, receiver opens mail by using POP3 or IMAP.
 
@@ -39,6 +33,27 @@ Client writes mail through user agent. Then the agent send the mail to writer's 
  - IMAP
  - POP3
  - HTTP
+---
+# Domain Name system
+What humans are familiar with is the domain name, not the host ip address. DNS is a distributed hierarchical database that converts domain name for computers.
 
-## Domain Name system
-What humans are familiar to is the domain name.
+#### hierarchy
+ 0. root
+ 1. top level domain
+ 2. authentication dns
+ 3. local
+
+#### service of DNS
+ - resolve btw ipaddresss & domain name.
+ - mail server aliasing
+ - resolve name to canonical Name
+ - change name to host Name
+
+#### request method
+ - iterative query
+ local DNS asks by itself
+
+ - recursive query
+ local DNS asks root DNS and gets response from it
+---
+# Multimedia with Content Distribution Network
