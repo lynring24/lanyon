@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Transport Layer
+date : 2017-11-26
 categories: Network
 ---
 ### Transport Services and protocols
@@ -11,7 +12,7 @@ categories: Network
 Sender : breaks application messages into segments, passes to network layer
 Receiver : assembles the segmets into messages and passesto application Layer
 
->more than one transport protocol is available to applications (Internet uses TCP & UDP)
+> more than one transport protocol is available to applications (Internet uses TCP & UDP)
 
 <table>
   <tr>
@@ -19,9 +20,9 @@ Receiver : assembles the segmets into messages and passesto application Layer
     <th> Network  </th>
   </tr>
   <tr>
-    <td>application vs application</td>
+    <td> application vs application</td>
     <td> host vs host  </td>
-    </tr>
+  </tr>
 </table>
 
 ### Multiplexing / Demultiplexing
@@ -32,11 +33,10 @@ what is needed:
 - datagrams
 - IP address of destination
 - port # of destinaion
----
 - IP address of source
 - port # of source
 
 Datagrams will be send to destination port number, but different source IP address is needed to distinguish with others. In UDP just after packet has arrived from upper layer, segments are passsed to network layer right away. This makes hard to find out the source whose sending the message. web servers have different sokets for each connecting clents. They create chile process to handle each connection. non-persistent HTTP will have different socket for each request.
 
-TRANSPORT ---> TRANSPORT
+TRANSPORT ---> TRANSPORT<br>
 NETWORK LAYER WITH SEGMENT
