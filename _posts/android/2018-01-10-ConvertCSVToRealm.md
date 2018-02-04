@@ -8,7 +8,7 @@ For a project, I had to import excel data to Realm. Sure there were some example
 By searching few days I've found out that Realm is not that friendly with importing and exporting data in other forms than .realm itself. There were CoCoa-Converter for Swift and Objective-C but there were no offical converter yet<dir>
 To Approach from excel to realm:
 + excel file to JSON, JSON to Realm (There are some APIs and libraries)
-+ Dynamic Realm (The document said this will be used in .csv or .txt but I could rarely find the data)
++ Dynamic Realm (The document said this will be used in .csv or .txt but I could rarely find the way how)
 + excel to .csv , read csv line one by one and insert them
 <dir>
 The last option is what I've used. In my case the data was a 1K lines and column was no more than 3, so it was not a big expense to read the line one by one. <dir>
