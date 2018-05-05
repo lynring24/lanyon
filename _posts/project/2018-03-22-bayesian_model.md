@@ -1,8 +1,9 @@
 ---
 layout: post
 title: building bayesian model
-categories: ML
+categories: project
 ---
+{% highlight python %}
 from BayesianDBManager import DBManager
 from BayesianFilter import BayesianFilter
 from sklearn.model_selection import train_test_split
@@ -31,3 +32,4 @@ for row in test_set:
     else:
         print(row[0], pre, row[1])
 print("정확도:", str(accuracy / len(test_set)))
+{% endhighlight %}

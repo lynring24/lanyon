@@ -1,8 +1,9 @@
 ---
 layout: post
 title: mlp-classifier model 생성하기
-categories: ML
+categories: project
 ---
+{% highlight python %}
 ## 라이브러리
 from keras.models import Sequential
 from keras.layers import Dense, Dropout, Activation
@@ -64,10 +65,10 @@ f1 - score : 정밀도와 재현율의 평균
 
 ## 학습하기 --- (※3)
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y)
-> 케라스는 데이터셋을 불러 와서 학습 데이터셋 X_train과 데이터셋 X_test로 나누고, 신경망을 미세 조정하고, 성능 평가에 사용한는 데 필요한 적절한 라이브러리를 제공한다.
+# 케라스는 데이터셋을 불러 와서 학습 데이터셋 X_train과 데이터셋 X_test로 나누고, 신경망을 미세 조정하고, 성능 평가에 사용한는 데 필요한 적절한 라이브러리를 제공한다.
 
 Y_train = np_utils.to_categorical(Y_train, nb_classes)
->  범주 벡터를 이진 범주 행렬로 변환
+# 범주 벡터를 이진 범주 행렬로 변환
 
 print(len(X_train),len(Y_train))
 model = KerasClassifier(
@@ -90,7 +91,9 @@ print("정답률 =", ac_score)
 print("리포트 =\n", cl_report)
 ---
 
->Callback : 학습 과정 데이터 관찰 용도인데, Keras Classifier의 경우 model을 h5(또는 h5py)로 바로 저장하기 까다로웠다. (다들 json이나 yaml으로 많이 저장하는 것 같았다.) Callback을 사용해서
+<!--Callback : 학습 과정 데이터 관찰 용도인데, Keras Classifier의 경우 model을 h5(또는 h5py)로 바로 저장하기 까다로웠다. (다들 json이나 yaml으로 많이 저장하는 것 같았다.) Callback을 사용해서
+-->
 
 check = ModelCheckpoint(MODEL, monitor='val_loss', save_best_only=False)
 callbacks_list = [check]
+{% endhighlight %}
