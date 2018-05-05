@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introduction of my graduation project
-categories: ML
+categories: project
 ---
 
 Recently I've been working on my graduation project with my team-mates.
