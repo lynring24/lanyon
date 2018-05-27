@@ -38,10 +38,7 @@ pstmt.executeQuery();
 ---
 # ResutlSet = 질의 결과에 대한 Object(Cursor)
 {% highlight java %}
-<<<<<<< HEAD
 
-=======
->>>>>>> 372d0d6f5765a48feb31a2362f5f0094e5a4b5ed
 ResutlSet rs = stmt.exucuteQuery(sql);
 rs.next(); // 다음 row 이동
 rs.moveToInsertRow();
@@ -50,8 +47,5 @@ rs.delete();
 rs.absolute();
 rs.updateString();
 rs.getString([칼럼이름 / 칼럼번호]);
-<<<<<<< HEAD
 
-=======
->>>>>>> 372d0d6f5765a48feb31a2362f5f0094e5a4b5ed
 {% endlight java %}
