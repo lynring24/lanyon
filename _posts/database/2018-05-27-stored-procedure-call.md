@@ -4,7 +4,7 @@ title: stored procedure call
 categories: database
 ---
 
-{% highlight jsp %}
+{% highlight java %}
 Class.forName("드라이버이름");
 // DriverManager.registerDriver("드라이버이름");
 Conncetion conn = DriverManager.getConnection(url, id, pw);
@@ -24,6 +24,6 @@ cstmt.registerOutParameter(n, "타입");
 cstmt.execute();
 
 // read return
-TYPE result = cstmt.getTYPE("번호");
+int result = cstmt.getInt("번호");
 
-{% endlight jsp %}
+{% highlight java %}
