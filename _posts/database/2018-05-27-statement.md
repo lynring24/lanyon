@@ -37,7 +37,8 @@ pstmt.executeQuery();
 
 ---
 # ResutlSet = 질의 결과에 대한 Object(Cursor)
-{% highlight jsp %}
+
+{% highlight java %}
 
 ResutlSet rs = stmt.exucuteQuery(sql);
 rs.next(); // 다음 row 이동
@@ -48,4 +49,4 @@ rs.absolute();
 rs.updateString();
 rs.getString(/*[칼럼이름 / 칼럼번호]*/);
 
-{% endlight jsp %}
+{% highlight java %}
