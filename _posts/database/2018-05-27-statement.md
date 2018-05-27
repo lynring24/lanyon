@@ -20,7 +20,7 @@ categories: database
     - CONCUR_UPDATABLE
 
 {% highlight java %}
-  Statement stmt = conn.createStatement(TYPE 옵션)
+  Statement stmt = conn.createStatement("TYPE 옵션"")
  // Execute
   boolean stmt.execute(sql);
   ResultSet stmt.exucuteQuery(sql);
@@ -46,6 +46,6 @@ rs.moveToCurrentRow();
 rs.delete();
 rs.absolute();
 rs.updateString();
-rs.getString([칼럼이름 / 칼럼번호]);
+rs.getString(/*[칼럼이름 / 칼럼번호]*/);
 
 {% endlight java %}
