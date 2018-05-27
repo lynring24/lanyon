@@ -25,7 +25,7 @@ categories: database
   boolean stmt.execute(sql);
   ResultSet stmt.exucuteQuery(sql);
   ResultSet stmt.executeUpdate(sql);
- {% endlight java %}
+ {% endhighlight %}
 
 
 # PreparedStatement
@@ -33,7 +33,7 @@ categories: database
 PreparedStatement pstmt = conn.prepareStatement(?가 포함된 sql문);
 pstmt.setINT(1, value); // 인덱스는 1부터
 pstmt.executeQuery();
-{% endlight java %}
+{% endhighlight %}
 
 ---
 # ResutlSet = 질의 결과에 대한 Object(Cursor)
