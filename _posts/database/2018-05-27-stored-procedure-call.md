@@ -26,4 +26,4 @@ cstmt.execute();
 // read return
 int result = cstmt.getInt("번호");
 
-{% highlight java %}
+{% endhighlight %}

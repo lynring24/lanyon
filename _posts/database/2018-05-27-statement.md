@@ -49,4 +49,4 @@ rs.absolute();
 rs.updateString();
 rs.getString(/*[칼럼이름 / 칼럼번호]*/);
 
-{% highlight java %}
+{% endhighlight %}
