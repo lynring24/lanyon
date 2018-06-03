@@ -1,6 +1,6 @@
 ---
 layout: post
-title: stored procedure call
+title: call stored procedure 
 categories: database
 ---
 
@@ -10,6 +10,7 @@ Class.forName("드라이버이름");
 Conncetion conn = DriverManager.getConnection(url, id, pw);
 CallableStatement cstmt = conn.prepareCall("{call 프로시져이름[파라미터]}");
 
+CallableStatement cstmt = conn.prepareCall("{? = call 함수[파라미터]}");
 // IN 파라미터
 cstmt.setTYPE("번호", "값");
 
