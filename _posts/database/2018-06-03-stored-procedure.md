@@ -51,28 +51,10 @@ BEGIN
 END;
 /
 
+EXECUTE pName(input);
+var vName type;
+EXECUTE :vName := fName(input);
+print vName;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{% endhighlight jSP %}
+SHOW ERROR;
+{% endhighlight jsp %}
