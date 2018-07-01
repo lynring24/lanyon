@@ -8,7 +8,7 @@ permalink:           pretty
 title:               lynring24
 tagline:             'blog'
 description:         '멋모르고 운영하는 블로그'
-url:                 https://lynring24.github.io
+url:            https://lynring24.github.io
 baseurl:             ''
 paginate:            5
 
