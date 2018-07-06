@@ -18,6 +18,7 @@ Digits를 윈도우에 설치할 사람은 지금이라도 리눅스를 사용�
 
 > 사용하는 컴퓨터의 성능과 옵션에 따라서 사용 가능한 버전이 달라진다. 내가 사용한 컴퓨터는 GPU가 없어서 버전을 올릴 수가 없었다. 
 
+
 ## 설치 과정 
 Caffe 설치 전까지는 아래의 문서를 따라서 설치하면 된다. <dir>
 https://github.com/NVIDIA/DIGITS/blob/820c82f257233845f21a9ef2addd84d3c59cf006/docs/BuildDigitsWindows.md<dir>
@@ -25,7 +26,8 @@ https://github.com/NVIDIA/DIGITS/blob/820c82f257233845f21a9ef2addd84d3c59cf006/d
 ### Caffe 설치와 고생길
 Caffe 설치 때문에 이틀을 고생했다. 일단 자료가 옛날 자료라서 최신 버전 Caffe에 없는 파일들을 수정하라고 나온다. (이것 때문에 clone만 n번 했다.)
 설치하려는 사람들은 제발 버전을 무시하는 실수를 하지 않았으면 좋겠다. 
-<dir>
+
+
 + **caffe 설치 시 경로에 공백이 있으면 안된다.** 
 + 환경변수는 생각보다 늦게 반영된다. 
 
