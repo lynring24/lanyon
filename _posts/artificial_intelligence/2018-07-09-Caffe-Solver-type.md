@@ -1,3 +1,9 @@
+---
+layout: post
+title: Framework Caffe와 solver
+categories: 인공지능(AI)
+---
+
 **From http://caffe.berkeleyvision.org/tutorial/solver.html**
 
 ### Solver 
