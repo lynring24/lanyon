@@ -14,7 +14,7 @@ Digits를 윈도우에 설치할 사람은 지금이라도 리눅스를 사용�
 3. CuDNN 5.1
 4. Caffe 
 5. Graphviz
-6. Viusal Studio 2013/2015(컴파일러)
+6. Viusal Studio 2013/2015(컴파일러) https://my.visualstudio.com/Downloads?q=visual%20studio%202013&wt.mc_id=o~msft~vscom~older-downloads
 
 > 사용하는 컴퓨터의 성능과 옵션에 따라서 사용 가능한 버전이 달라진다. 내가 사용한 컴퓨터는 GPU가 없어서 버전을 올릴 수가 없었다. 
 
