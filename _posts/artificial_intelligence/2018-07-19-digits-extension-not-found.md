@@ -1,6 +1,6 @@
 Digits Plugin Extension Problem
 
-Path was the problem so had to import pakage sys to find the absolute path.
+Path was the problem so had to import sys to get the absolute path.
 
 {% highlight python %}
 import os, sys
