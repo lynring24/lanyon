@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Cross Validation and K-fold
-categories: project
+title: validation
+categories: data_minig
 ---
 데이터가 예측하고 싶은 문제에 대한 정답을 갖고 있는 경우, 이 데이터는 label 값을 갖고 있다고 한다. label 값을 갖고 있는 데이터들을 그대로 학습시키고 그 모델을 가지고 예측이나 계산을 한다면, 이 모델이 정확한지 확신할 수 없다. 따라서, 모델의 정확도를 계산하기 위해 데이터를 train, 학습용과 test, 정확도 테스트 용으로 분리해서 사용한다.
 
