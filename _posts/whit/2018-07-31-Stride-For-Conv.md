@@ -1,3 +1,9 @@
+---
+layout: post
+title: Stride for Conv layer
+categories: whit
+---
+
 Three components which affect the output volume are be stride, filter and zero padding.
 ---
 **Zero Padding** will be virtualize border to make the loss of data less.
