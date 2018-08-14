@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 세미나 요약
-categories: etc
+categories: whit
 ---
 
 ## 방학 때 생각해 봤어야하는 것들
