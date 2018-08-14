@@ -1,6 +1,6 @@
 ---
 layout: post
-title: common mistakes with git
+title: common mistakes
 categories: whit
 ---
 1. fatal error : --unallowed tracking histories
@@ -40,3 +40,10 @@ def get_max_N():
 <script src="http://code.jquery.com/jquery.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 
+1. ORA-00911: 문자가 부적합합니다
+{% highlight jsp %}
+String sql = "{}**;**"
+{% endhighlight jsp %}
+jsp에서 sql문 문자열에 ;가 들어가면 에러가 발생
+
+2. purge recyclebin;
