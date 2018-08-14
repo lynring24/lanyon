@@ -11,20 +11,20 @@ We also used the message(mobile) we've received.
 ### What we've done
 Classification 
 1. Naive Baysian 
----
-data : 3,xxx
-input : Title of the articles 
-output :  ['공지', '취업] 
-accuracy : 0.9x
----
+<table>
+<tr><td>data</td><td>3,xxx</td></tr>
+<tr><td>input</td><td>Title of the articles </td></tr>
+<tr><td>output</td><td>['공지', '취업] </td></tr>
+<tr><td>accuracy</td><td>0.9x</td></tr>
+</table>
 
 2. MLP with keras
----
-data : 2x,xxx
-input : Title of the articles 
-output :  ['공지', '학사', '학생'.. ] in 8 categories
-accuracy : 0.9 , 0.85
----
+<table>
+<tr><td>data</td><td> 2x,xxx</td></tr>
+<tr><td>input </td><td>Title of the articles </td></tr>
+<tr><td>output</td><td>['공지', '학사', '학생'.. ] in 8 categories</td></tr>
+<tr><td>accuracy </td><td> 0.9 , 0.85</td></tr>
+</table>
 
 3. Message Classfication 
 Messages that students received from university were sent by the phone numbers of department.
