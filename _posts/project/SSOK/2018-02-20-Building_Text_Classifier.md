@@ -3,16 +3,15 @@ layout: post
 title: Introduction of graduation project(SSOK)
 categories: project
 --- 
-<pre>
-I've finally finished a graduation project with 2 team-mates. 
-Since some articles from university web page were messed up, we decide to build an android application which categories and recommends articles to the users. 
-We scrapped the articles from the main bulletin board and boards from each department(Physics, Law etc). 
-We also used the message(mobile) we've received.
-</pre>
+
+I've finally finished a graduation project with 2 team-mates. <br>
+Since some articles from university web page were messed up, we decide to build an android application which categories and recommends articles to the users.  <br>
+We scrapped the articles from the main bulletin board and boards from each department(Physics, Law etc).  <br>
+We also used the message(mobile) we've received. <br>
 
 ## What we've done
 ### Classification 
-1.Naive Baysian 
+1. Naive Baysian 
 <table>
 <tr><td>data</td><td>3,xxx</td></tr>
 <tr><td>input</td><td>Title of the articles </td></tr>
@@ -20,7 +19,7 @@ We also used the message(mobile) we've received.
 <tr><td>accuracy</td><td>0.9x</td></tr>
 </table>
 
-2.MLP with keras
+2. MLP with keras
 <table>
 <tr><td>data</td><td> 2x,xxx</td></tr>
 <tr><td>input </td><td>Title of the articles </td></tr>
@@ -28,11 +27,10 @@ We also used the message(mobile) we've received.
 <tr><td>accuracy </td><td> 0.9 , 0.85</td></tr>
 </table>
 
-3.Message Classfication 
-<pre>
-Messages that students received from university were sent by the phone numbers of department.
+3. Message Classfication  <br>
+Messages that students received from university were sent by the phone numbers of department. <br>
 The problem was that most of the departments use more than one numbers. To use the numbers for classification, normalization between department and phone numbers had to be done first. After that, match the recieved message's number with the list of department numbers. 
-</pre>
+
 
 ### Recommendation
 1. content based recommendation
