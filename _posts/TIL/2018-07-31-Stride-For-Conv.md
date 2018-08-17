@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stride for Conv layer
-categories: whit
+categories: TIL
 ---
 
 Three components which affect the output volume are be stride, filter and zero padding.
