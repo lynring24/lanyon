@@ -1,7 +1,7 @@
 ---
 layout: post
 title: common mistakes
-categories: whit
+categories: TIL
 ---
 1. fatal error : --unallowed tracking histories
 > git pull oring branck --allowed-unrelated-histories
