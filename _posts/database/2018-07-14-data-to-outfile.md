@@ -1,7 +1,7 @@
 ---
 layout: post
 title: table to outfile 
-categories: database
+categories: Database
 ---
 
 There was a need to move a whole bunch of data from a table into other pc and I decided to make a outfile. 
