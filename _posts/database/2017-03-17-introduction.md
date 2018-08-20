@@ -1,9 +1,10 @@
 
 ---
 layout: post
-title: Introduction of Database
-categories: database
+title: Indrocution of Database
+categories: Database
 ---
+
 
 Data is a raw facts before processed as an information. Database is a collection of data and Database Management System is a software package which stores and manages the system. <br>
 <br>
