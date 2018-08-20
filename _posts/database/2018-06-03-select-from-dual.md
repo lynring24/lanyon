@@ -1,7 +1,7 @@
 ---
 layout: post
 title: select from dual
-categories: database
+categories: Database
 ---
 
 {% highlight java %}
