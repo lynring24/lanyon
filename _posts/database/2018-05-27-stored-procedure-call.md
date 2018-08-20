@@ -1,7 +1,7 @@
 ---
 layout: post
 title: call stored procedure 
-categories: database
+categories: Database
 ---
 
 {% highlight java %}
