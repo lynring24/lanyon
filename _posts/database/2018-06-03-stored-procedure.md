@@ -1,7 +1,7 @@
 ---
 layout: post
 title: stored procedure
-categories: database
+categories: Database
 ---
 
 {% highlight jsp %}
