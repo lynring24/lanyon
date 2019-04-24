@@ -74,10 +74,12 @@ A= r^2 * pi
 if  p = 2*pi* r:
  4 * pi*pi*r ^2 / (2*pi*r)^2 == 1
 ```
-> **원**일 때는 circularity = 1
-> **사각형**이라면 circularity =  4*pi*1/16 < 1
-> **삼각형**이라면  circularity = (root(3) /4 )* 4* pi / 9  > 1
-> 1에 가까울 수록 원이 된다 .
+> **원**일 때는 circularity = 1   
+> **사각형**이라면 circularity =  4*pi*1/16 < 1   
+
+> **삼각형**이라면  circularity = (root(3) /4 )* 4* pi / 9  > 1   
+
+> 1에 가까울 수록 원이 된다.   
 
 ```
 lim 1 = circle
