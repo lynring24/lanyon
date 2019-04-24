@@ -49,7 +49,8 @@ do  {
 
 
 ## BOUDNARY FEATURE DESCRIPTORS 
---- 바운더리들의 특징을 어떻게 묘사하는가 
+바운더리들의 특징을 어떻게 묘사하는가 
+```
 diameter 직경 : max of distance btwn pi, pj
 계산을 다 해봐서 가장 두 점의 차가 큰 경우 
 길이 m   = major axis 가장 거리가 긴 좌표축 
@@ -59,6 +60,7 @@ minor axis major에 직교하는 경우
 
 statistic moments 
 nth modment of z : n제곱시의 표준 편차 같은 느낌 
+```
 
 ## REGION FEATURE DECRIPTORS : 영역 찾기 
 ```
