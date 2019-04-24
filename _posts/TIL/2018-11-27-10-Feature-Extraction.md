@@ -36,7 +36,7 @@ do  {
           }
     }
 } while ( b != b0 );
- {% endhighlight java %}
+{% endhighlight %}
 
 ## SIGNATURE 
 2차인 영상을 1차로 변환한다.
@@ -76,9 +76,7 @@ if  p = 2*pi* r:
 ```
 > **원**일 때는 circularity = 1   
 > **사각형**이라면 circularity =  4*pi*1/16 < 1   
-
 > **삼각형**이라면  circularity = (root(3) /4 )* 4* pi / 9  > 1   
-
 > 1에 가까울 수록 원이 된다.   
 
 ```
