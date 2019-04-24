@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 10. Feature Extration
+title: Feature Extration
 categories: TIL
 ---
 
