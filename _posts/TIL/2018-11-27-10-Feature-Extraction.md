@@ -61,38 +61,41 @@ statistic moments
 nth modment of z : n제곱시의 표준 편차 같은 느낌 
 
 ## REGION FEATURE DECRIPTORS : 영역 찾기 
-
+```
 p = 둘레길이 
-
 compactness = p^2 / a
-면적이 같을 때, 주변 둘레가 더 클면 클 수록 컴팩트하다고 한다. 
-오렌지와 같은 크기의 포도를 구별할떄 
-boundary를 하는 경우 더 컴팩트한 물체를 오렌지라 반별 
+```
+면적이 같을 때, 주변 둘레가 더 클면 클수록 compact하다고 한다. 가령, 같은 크기의 오렌지와 포도를 경우,  boundary가 더 컴팩트한 물체를 오렌지라고 할 수 있다.  
 
+```
 circularity  : 4* PI* A  / p^2얼마나 더 각진지 
 A= r^2 * pi
 4* PI* A  / p^2 
-if  p = 2*pi* r
+if  p = 2*pi* r:
  4 * pi*pi*r ^2 / (2*pi*r)^2 == 1
-원일 때는 circularity가 1이된다. 
-사각형이라면 4*pi*1 / 16 <1
-삼각형이라면  ( root(3) /4 )* 4 pi  / 9  >1
- -- 1에 가까울 수록 원이 된다 .
+```
+> **원**일 때는 circularity = 1
+> **사각형**이라면 circularity =  4*pi*1/16 < 1
+> **삼각형**이라면  circularity = (root(3) /4 )* 4* pi / 9  > 1
+> 1에 가까울 수록 원이 된다 .
 
+```
 lim 1 = circle
-
 effective diameter : 면의 지름 근삿값
 eccentricity : 타원 
 maximum distance ( axis 와 관련된 ) 를 찾고, a의 axis를 둔다. 
 
 Texture  : frequency ( 머리카락, 나뭇잎)
 p : histogram을 합 1로 argmax 
+
 relative intensity = 평균에서의 분포 
-variance가 클수록 r(z)이 커진다. 
-작을 수록 r(z)가 0에 가까워진다. 
--> 강약이 있을 수록 이미지에 앙약이 생긴다.
+```
+variance가 클수록 r(z)가 커지고, 작을 수록 r(z)가 0에 가까워진다. 강약이 있을수록 이미지에 앙약이 생긴다.
+
+```
 Standard deviation : 평균에서 얼마나 차이가 나는 가
 R(normalized) : smooth 0에 가까움 
 third moment : 식에 p = 3 대입 -> 평균 대비 밝은지 어두운지
 uniformity : smooth할 수록 값이 크다 .
 반대로 entropy : 값들끼리 대비가 클수록 값이 크다.
+```
