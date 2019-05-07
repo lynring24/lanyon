@@ -11,7 +11,7 @@ categories: paper
 
 ## Introduction And Goals
 Region system provides an simpler verbs interface of remote system, where the memory systems are operated by **files**. Two benchmarks have been used: R and metis. Since it is hard to use existing remoete meroy system, by using region jobs could be more simple.
-> RDMA : remtoe memory interface  
+> RDMA : remote memory interface  
 > REGIONS : file interface
 
 #### Comparsion with RDMA
@@ -27,4 +27,9 @@ providing abstractions for applications to access the memory of other applicatio
 #### Memory allocation
 applications can dynamically allocate/free buffers within a region. T(rmalloc) < T(new_region)
 
+#### Usage 
+> data exchange : distributeed files ystem -> file   
+> store system : storage server + access -> store in local
+
+Region is backed by thememroy of a process, in default region disappers when process terminates. 
 
