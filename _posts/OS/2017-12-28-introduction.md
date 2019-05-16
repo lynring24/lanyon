@@ -7,7 +7,7 @@ categories: OS
 소프트웨어는 크게 응용 소프트웨어와 시스템 소프트웨어로 나뉜다. 응용 소프트웨어는 ms word나 게임과 같은 각종 응용 프로그램들의 집단이다. 시스템 소프트웨어는 다시 운영체제와 시스템 르로그램으로 나뉜다. 운영 체제는 사용자에게 인터페이스를 제공하면서 컴퓨터의 자원을 관리하는 소프트웨어이다. 시스템 프로그램은 hw 시스템을 구동하기 위한 프로그램들이다.
 
 
-<img src="../images/os_software_type_tree.png" alt="software type tree" width="300"/>
+![sw](../images/os_software_type_tree.png)
 
 #### 1세대 운영체제 : 일괄저리 시스템(Single-stream Batch Processing System)
 Batch란 한번 작업이 시작하면 해당 작업이 끝날 때까지 다른 작업들은 기다려야 하는 방식으로, 작업들은 차례대로, 중간에 다른 개입없이 처리된다. 언제까지나 일이 다 끝나길 기다릴 수는 없기 떄문에 그나마 일을 빨리 처리하기 위해서 여러 작업을 미리 올려두고 작업(일의 단위)들을 처리를 했다.
@@ -19,7 +19,7 @@ Batch란 한번 작업이 시작하면 해당 작업이 끝날 때까지 다른 
 + 시분할 시스템은 프로세서의 작업 시간을 작업의 개수로 나눠서 n만큼식 처리하는 방법이다. (multi task + time share)
 + 대화식 시스템은 마우스나 키보드같은 입출력이 많은 시스템에서 사용된다. 응답 시간을 빠르게 하기 위해서 고려해야하는 부분들이 있다. (multi task + I/O)
 
-<img src="../images/os_mutli_task.png" alt="os_multi_task" width="300"/>
+![multi](../images/os_multi_task.png)
 
 ## 정리
 + 운영 체제 = 사용자 인터페이스 + 자원 관리

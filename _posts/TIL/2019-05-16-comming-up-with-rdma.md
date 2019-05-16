@@ -13,5 +13,10 @@ RNIC of remote connects to RNIC of remote and access the memory.
 The data flows into the host by RNIC
 The RNIC of host pass the data to DMA of host and paste.  
 ```
-There are two types of RDMA: one-sided and two-sided. What mostly known is one-sided RMDA which uses only the host CPU but not the remote CPU.
+
+![sw](../images/RMDA.png)
+<pre>
+There are two types of RDMA: one-sided and two-sided.
+What mostly known is one-sided RMDA which uses only the host CPU but not the remote CPU.
 Two sided uses the CPU of both side.
+</pre>
