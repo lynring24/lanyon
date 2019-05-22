@@ -14,7 +14,8 @@ The data flows into the host by RNIC
 The RNIC of host pass the data to DMA of host and paste.  
 ```
 
-![sw](../images/RMDA.png)
+![sw](../images/RMDA.PNG)
+
 <pre>
 There are two types of RDMA: one-sided and two-sided.
 What mostly known is one-sided RMDA which uses only the host CPU but not the remote CPU.
