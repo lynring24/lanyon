@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Sipping RDMA
-categories: TIL
+categories: RDMA
 ---
 ## RDMA
 RDMA, or as Remote Direct Memory Access is a technique to access the memory of remote device without bothering CPU. 

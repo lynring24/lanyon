@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  RDMA Architecture Abstract
-categories: TIL
+categories: RDMA
 ---
 > This document is based on http://www.mellanox.com/related-docs/prod_software/RDMA_Aware_Programming_user_manual.pdf 
 
