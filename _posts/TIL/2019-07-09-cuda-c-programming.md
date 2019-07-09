@@ -4,7 +4,7 @@ title: cuda terms
 categories: TIL
 ---
 
-### Comute Capability 
+### Compute Capability 
 SM version이라고도 하는데, 해당 GPU hardware에서 지원하는 feature에 대한 숫자 정보 
 같은 version이라면 같은 core architecture를 갖는다. 볼타가 7, pascaldl 6 
 
