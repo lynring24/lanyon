@@ -11,9 +11,8 @@ compiling the device code into assembly form (PTX) and/or binary form (Cubin obj
 
 #### Binary Capability 
 Cubin object is generated using the compiler option -code: specified target architecture.
-> -code = sm_35  /* compute capability가 3.5이상안 device에서 binary code 실행이 가능하다. */
+> -code = sm_35  # compute capability가 3.5이상안 device에서 binary code 실행이 가능하다. 
 
 #### PTX Compatability 
 ** Warp shuffle funcions ** supported on devices of compute capability equal or above. when compiling from C to PTX. 
 > -arch=compute_30 
-
