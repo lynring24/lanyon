@@ -16,3 +16,5 @@ Cubin object is generated using the compiler option -code: specified target arch
 #### PTX Compatability 
 ** Warp shuffle funcions ** supported on devices of compute capability equal or above. when compiling from C to PTX. 
 > -arch=compute_30 
+> -rdc=true  	# create relocatbale device code
+> -lcudadevrt 	# dyanmic parallelism supported by the device runtime library
