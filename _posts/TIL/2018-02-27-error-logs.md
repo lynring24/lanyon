@@ -32,15 +32,6 @@ def get_max_N():
         print(element[0], element[1])
     print(heapq.nlargest(N, arr, lambda  s: s[1]))
 </code>
-<<<<<<< HEAD:_posts/etc/2018-02-27-git-logs.md
-=======
-
-<!-- Bootstrap -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
-
-
-<script src="http://code.jquery.com/jquery.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
 
 1. ORA-00911: 문자가 부적합합니다
 {% highlight jsp %}
@@ -49,4 +40,3 @@ String sql = "{}**;**"
 jsp에서 sql문 문자열에 ;가 들어가면 에러가 발생
 
 2. purge recyclebin;
->>>>>>> 2281a30219515ce7cbd97da7117041fc7aea97ec:_posts/TIL/2018-02-27-error-logs.md
