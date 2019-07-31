@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Linux: No space left on device
+title:  No space left on device
 categories: TIL
 ---
 
@@ -52,4 +52,4 @@ Format a file system to ext4.
 Mount file system if needed.
 
 ### Nutshell
-The jobs was to extend the volume so did not have to create a logical group but could be help to know. 
+The jobs was to extend the volume so did not have to create a logical group but could be help to know.
