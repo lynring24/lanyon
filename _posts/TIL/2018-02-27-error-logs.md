@@ -14,7 +14,8 @@ categories: TIL
 4. kotlin의 static은 Companion으로 처리하는데 자바에서 부르기 위해서 @JvmStatic()를 해줘야하고, 자바에서는 [파일이름].Companion.으로 접근해야 한다.
 
 5. 파이썬에는 iter 가능한 element 중 가장 큰 N개를 뽑아주는 멋진 기능이 있다.
-<code>
+
+```
 import random, heapq, string
 
 cnt = 10
@@ -31,7 +32,7 @@ def get_max_N():
     for element in arr:
         print(element[0], element[1])
     print(heapq.nlargest(N, arr, lambda  s: s[1]))
-</code>
+```
 
 1. ORA-00911: 문자가 부적합합니다
 {% highlight jsp %}
