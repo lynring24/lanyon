@@ -1,8 +1,10 @@
-__
-post : post
-title : Using cgroup for memory limitation
-category : TIL
-__
+
+---
+layout: post
+title: Using cgroup for memory limitation
+categories: TIL
+---
+
 ```
 MEMCG_ORIG_DIR=/sys/fs/cgroup/memory/
 MEMCG_DIR=/sys/fs/cgroup/memory/run_mem_lim_$USER
