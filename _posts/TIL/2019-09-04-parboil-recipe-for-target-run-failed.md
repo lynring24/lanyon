@@ -1,11 +1,12 @@
 ---
 layout: post
-title: Parboil/common/mk/cuda.mk:90: recipe for target 'run' failed
+title: parboil recipe for target 'run' failed
 categories: TIL
 ---
 
-벤치마크 Parboil을 설치하는 대신 **환경변수** 때문에 삽질을 했다. 
-> USER_PATH = 사용자 HOME 디렉터리     
+벤치마크 Parboil을 설치하는 대신 **환경변수** 때문에 삽질을 했다.
+> USER_PATH = 사용자 HOME 디렉터리
+
 ```
 $ ./parboil run cutcp cuda small
 Parboil parallel benchmark suite, version 0.2
@@ -24,23 +25,25 @@ Resolving CUDA runtime library...
 make: *** [run] Error 1
 Run failed!
 ```
-### 문제 
+
+### 문제
 <pre>
-cuda makefile에서 환경변수 문제가 있었다. 
-@$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(**CUDA_LIB_PATH**) ldd $(**BIN**) | grep cuda  
+cuda makefile에서 환경변수 문제가 있었다.
+@$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(**CUDA_LIB_PATH**) ldd $(**BIN**) | grep cuda
 문제가 되는 환경 변수 RUNTIME_ENV는 지웠고, LD_LIBRARY_PATH와 BIN은 Makefile.conf에 추가했다.
 </pre>
 
 
-### 수정한 파일 
+### 수정한 파일
+
 + parboil/common/mk/cuda.mk
 ```
  89 run:
  90     @echo "Resolving CUDA runtime library..."
  91 #   original code
- 92 #   @$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(CUDA_LIB_PATH) ldd $(BIN) | grep cuda  
+ 92 #   @$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(CUDA_LIB_PATH) ldd $(BIN) | grep cuda
  93 #   @$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(CUDA_LIB_PATH) $(BIN) $(ARGS)
- 94 #   modified code 
+ 94 #   modified code
  95     @LD_LIBRARY_PATH=$(CUDA_LIB_PATH)
  96     @LD_LIBRARY_PATH=$(CUDA_LIB_PATH) $(BIN) $(ARGS)
 
@@ -55,7 +58,8 @@ OPENCL_LIB_PATH=/usr/lib
 # common/mk/cuda.mk
 BIN=/usr/local/cuda/bin
 ```
-### Result 
+
+### Result
 ```
 Resolving CUDA runtime library...
 read 5943 atoms from file '/home/dcslab/hrchung/benchmark/Parboil/datasets/cutcp/small/input/watbox.sl40.pqr'
@@ -78,4 +82,3 @@ CPU/Kernel Overlap: 0.003808
 Timer Wall Time: 1.672222
 Pass
 ```
-
