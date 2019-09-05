@@ -29,8 +29,8 @@ Run failed!
 #### 문제
 <pre>
 cuda makefile에서 환경변수 문제가 있었다.
-@$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(**CUDA_LIB_PATH**) ldd $(**BIN**) | grep cuda
-문제가 되는 환경 변수 RUNTIME_ENV는 지웠고, LD_LIBRARY_PATH와 BIN은 Makefile.conf에 추가했다.
+@$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(CUDA_LIB_PATH) ldd $(BIN) | grep cuda
+문제가 되는 환경 변수 RUNTIME_ENV는 지웠다.
 </pre>
 
 
