@@ -26,7 +26,7 @@ make: *** [run] Error 1
 Run failed!
 ```
 
-### 문제
+#### 문제
 <pre>
 cuda makefile에서 환경변수 문제가 있었다.
 @$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(**CUDA_LIB_PATH**) ldd $(**BIN**) | grep cuda
@@ -34,9 +34,9 @@ cuda makefile에서 환경변수 문제가 있었다.
 </pre>
 
 
-### 수정한 파일
+## 수정한 파일
 
-+ parboil/common/mk/cuda.mk
+#### parboil/common/mk/cuda.mk
 ```
  89 run:
  90     @echo "Resolving CUDA runtime library..."
@@ -48,7 +48,8 @@ cuda makefile에서 환경변수 문제가 있었다.
  96     @LD_LIBRARY_PATH=$(CUDA_LIB_PATH) $(BIN) $(ARGS)
 
 ```
-+ parboil/common/Makefile.conf
+#### parboil/common/Makefile.conf
+
 ```
 OPTIMIZATION=2
 CUDA_PATH=/usr/local/cuda
@@ -59,7 +60,7 @@ OPENCL_LIB_PATH=/usr/lib
 BIN=/usr/local/cuda/bin
 ```
 
-### Result
+## Result
 ```
 Resolving CUDA runtime library...
 read 5943 atoms from file '/home/dcslab/hrchung/benchmark/Parboil/datasets/cutcp/small/input/watbox.sl40.pqr'
