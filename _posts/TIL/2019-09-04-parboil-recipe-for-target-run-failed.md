@@ -40,11 +40,10 @@ cuda makefile에서 환경변수 문제가 있었다.
 ```
  89 run:
  90     @echo "Resolving CUDA runtime library..."
- 91 #   original code
+ 91 #   original code : checking the dependancy 
  92 #   @$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(CUDA_LIB_PATH) ldd $(BIN) | grep cuda
  93 #   @$(shell echo $(RUNTIME_ENV)) LD_LIBRARY_PATH=$(CUDA_LIB_PATH) $(BIN) $(ARGS)
  94 #   modified code
- 95     @LD_LIBRARY_PATH=$(CUDA_LIB_PATH)
  96     @LD_LIBRARY_PATH=$(CUDA_LIB_PATH) $(BIN) $(ARGS)
 
 ```
@@ -56,8 +55,6 @@ CUDA_PATH=/usr/local/cuda
 CUDA_LIB_PATH=/usr/local/cuda/lib64
 OPENCL_PATH=/usr/local/cuda
 OPENCL_LIB_PATH=/usr/lib
-# common/mk/cuda.mk
-BIN=/usr/local/cuda/bin
 ```
 
 ## Result
