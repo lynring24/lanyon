@@ -18,7 +18,7 @@ git checkout -t origin FULL_REMOTE_BRANCH_NAME
 Then branch with the same branch name will be created.
 
 ## remove remote branch from local
-To remote the remote branch from local this would work/
+To remote the remote branch from local this would work.
 ```
 git push origin --delete BRANCH_NAME
 ```
