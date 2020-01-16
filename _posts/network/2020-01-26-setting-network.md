@@ -22,7 +22,7 @@ $ netplan apply
 ```
 $ lshw -C network  | grep -e 'vendor\|logical name\|capacity'
 ```
-# get speed of nic cart
+# get speed of nic card
 ```
 $ ethtool LOGICAL_NAME | grep Speed
 ```
