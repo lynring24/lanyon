@@ -4,7 +4,7 @@ title: synchronization with levels
 categories: GPU
 ---
 
-# ![Cooperative Groups](http://on-demand.gputechconf.com/gtc/2017/presentation/s7622-Kyrylo-perelygin-robust-and-scalable-cuda.pdf)
+# [Cooperative Groups](http://on-demand.gputechconf.com/gtc/2017/presentation/s7622-Kyrylo-perelygin-robust-and-scalable-cuda.pdf)
 A flexible model for synchronization and communication within groups of threads
 
 > Before CUDA 9.0 '\_syncthreads()' was proposed for block level synchronization. But starting from CUDA 9.0, in order of bottom to top
