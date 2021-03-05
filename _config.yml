@@ -10,7 +10,7 @@ tagline:             'blog'
 description:         '안녕하세요, 반갑습니다.'
 url:            https://lynring24.github.io
 baseurl:             ''
-paginate:            5
+paginate:            10
 
 # About/contact
 author:
