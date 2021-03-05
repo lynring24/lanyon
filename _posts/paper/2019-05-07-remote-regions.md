@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Remote regions: a simple abstraction for remote memory, USENIX
+title:  Remote regions\: a simple abstraction for remote memory, USENIX
 categories: paper
 ---
 
