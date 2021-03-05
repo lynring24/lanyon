@@ -33,8 +33,3 @@ plugins: [jekyll-paginate]
 #markdown
 markdown:     kramdown
 
-defaults:
-  - scope:
-    path: "assets/img"
-    values:
-      image: true
