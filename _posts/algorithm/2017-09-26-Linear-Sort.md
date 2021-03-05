@@ -2,6 +2,7 @@
 layout: post
 title: Linear Sort
 categories: Algorithm
+tags: [algorithm, sort]
 ---
 Linear Sort는 길이 n의 배열을 원소 2개씩 비교해서 정렬한다.
 + Iime Complexity : θ(n^2)

@@ -2,6 +2,7 @@
 layout: post
 title: create patch file 
 categories: TIL
+tags: [command]
 ---
 
 ### patch file from two different directories

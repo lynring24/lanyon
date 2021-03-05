@@ -2,6 +2,7 @@
 layout: post
 title: Using cgroup for memory limitation
 categories: TIL
+tags: [commands, linux, memory, setting]
 ---
 should be umount before rmdir or else will be a error message 
 > Device or resource busy

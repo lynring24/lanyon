@@ -2,6 +2,7 @@
 layout: post
 title: Introduction of Network 
 categories: Network
+tags: [network]
 ---
 
  Internet, that is what we are surrounded by.

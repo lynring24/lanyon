@@ -2,6 +2,7 @@
 layout: post
 title: Merge Sort
 categories: Algorithm
+tags: [algorithm, sort]
 ---
 Merge Sort는 길이 n의 정렬된 (정수) 배열을 Divide & Conquer 방식으로 정렬한다.<br>
  Time Complexity : θ(n^2)

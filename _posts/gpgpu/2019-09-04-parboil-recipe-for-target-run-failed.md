@@ -1,7 +1,8 @@
 ---
 layout: post
 title: parboil recipe for target 'run' failed
-categories: TIL
+categories: gpgpu
+tags: [cuda, parboil, gpgpu, benchmark]
 ---
 
 벤치마크 Parboil을 설치하는 대신 **환경변수** 때문에 삽질을 했다.

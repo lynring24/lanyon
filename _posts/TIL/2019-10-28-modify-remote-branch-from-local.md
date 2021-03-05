@@ -2,6 +2,7 @@
 layout: post
 title: create and delete remote branch to local at once(modified)
 categories: TIL
+tags: [command, git]
 ---
 
 ## create and pull remote branch to local at once

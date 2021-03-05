@@ -2,6 +2,7 @@
 layout: post
 title: Digits on Windows 윈도우에 digits 설치하기
 categories: 인공지능(AI)
+tags: [AI, digits, caffe]
 ---
 
 Digits를 윈도우에 설치할 사람은 지금이라도 리눅스를 사용해서 깔길 추천한다. <dir>
@@ -53,7 +54,7 @@ Makefile.config.example이라는 파일이 있을텐데, 복사해서 Makefile.c
 #####  파이썬 2.7과 2.7.15는 또 다르다.
 파이썬 3.x와 파이썬 2.x가 호환 안 된다는 것은 여러 삽질을 통해서 이미 겪어 왔지만, 2.7과 2.7.15가 또 다르다는 걸 몸으로 익혔다. 
 ##### cannot open include file 'caffe/include symbols.hpp' no such file or directory
-https://github.com/BVLC/caffe/issues/5840 <dir>
+https://github.com/BVLC/caffe/issues/5840 <br/>
 헤더 파일 중에 include_symbol.hph가 자동으로 연결되는게 아니어서 복붙 했어야했다.
 ##### pydot은 버전이 바뀌면서 graphviz가 없다
 검색해보니 원래 있다 없어졌다고 하는 사람들도 있고, pydot-ng를 설치하라는 사람도 있었다. 

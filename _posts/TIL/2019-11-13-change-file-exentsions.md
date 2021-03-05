@@ -1,7 +1,8 @@
 ---
 layout: post
 title: change file extension 
-categories: CLI_of_the_day
+categories: TIL
+tags: [command, linux]
 ---
 
 To change or make a copy of existing files, 

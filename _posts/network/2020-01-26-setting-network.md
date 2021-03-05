@@ -2,6 +2,7 @@
 layout: post
 title: network setting in Ubuntu 16.04/ 18.04
 categories: Network
+tags: [network, command, setting]
 ---
 
 연구실 서버가 이전하게 되면서 서버 셋팅이 꼬였다. 간단하게 필요한 command를 정리해봤다. 특히 Mellanox ConnectX-3은 선의 상태, 서버의 셋팅 

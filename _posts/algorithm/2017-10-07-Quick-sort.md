@@ -2,6 +2,7 @@
 layout: post
 title: Quick Sort
 categories: Algorithm
+tags: [algorithm, sort]
 ---
 
 Quick Sort는 divide하면서 Merge Sort와는 다르게 combine이 아니라 분류를 하는 방식이다.

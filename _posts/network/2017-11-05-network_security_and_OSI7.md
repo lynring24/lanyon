@@ -2,6 +2,7 @@
 layout: post
 title: Introduction of Network
 categories: Network
+tags: [network, osi]
 ---
 Networks are constructed in layers. It's because by modulization, the operation or roles of each layer could be specified and easy to maintain. On the other hand, the work of security should be done on every layers.
 

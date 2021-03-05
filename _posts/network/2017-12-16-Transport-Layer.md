@@ -3,6 +3,7 @@ layout: post
 title: Transport Layer
 date : 2017-11-26
 categories: Network
+tags: [network, segments]
 ---
 ### Transport Services and protocols
 - provides logical communication between application processes running on different hosts.
