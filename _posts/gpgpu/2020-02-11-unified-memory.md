@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Unified Memory in CUDA 1
-categories: GPU
+categories: gpgpu
+tags: [gpgpu, unified_memory]
 ---
 
 # Unified Memory

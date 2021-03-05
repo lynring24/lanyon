@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Volta Unified Memory
-categories: GPU
+categories: gpgpu
+tags: [gpgpu, unified_memory]
 ---
 
 ## Unified memory

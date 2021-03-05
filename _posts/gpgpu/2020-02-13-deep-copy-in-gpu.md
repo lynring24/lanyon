@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Deep copy in GPU
-categories: GPU
+categories: gpgpu
+tags: [gpgpu, deep_copy]
 ---
 # Deep COPY
 CUDA 6.0 이전에는 구조체를 HtoD 또는 DtoH 복사할 때, 단순히 구조체의 메모리 공간을 할당받고 데이터를 복사하는 것 뿐만 아니라 **참조하는 데이터의 주소값을 별도로 복사 해주는 작업** 이 필요하다.

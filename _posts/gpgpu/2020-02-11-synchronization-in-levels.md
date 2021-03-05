@@ -1,7 +1,8 @@
 ---
 layout: post
 title: synchronization with levels
-categories: GPU
+categories: gpgpu
+tags: [gpgpu, synchronization]
 ---
 
 # [Cooperative Groups](http://on-demand.gputechconf.com/gtc/2017/presentation/s7622-Kyrylo-perelygin-robust-and-scalable-cuda.pdf)
