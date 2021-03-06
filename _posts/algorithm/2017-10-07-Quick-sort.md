@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Quick Sort
-categories: Algorithm
+categories: algorithm
 tags: [algorithm, sort]
 ---
 

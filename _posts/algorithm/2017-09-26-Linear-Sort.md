@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linear Sort
-categories: Algorithm
+categories: algorithm
 tags: [algorithm, sort]
 ---
 Linear Sort는 길이 n의 배열을 원소 2개씩 비교해서 정렬한다.

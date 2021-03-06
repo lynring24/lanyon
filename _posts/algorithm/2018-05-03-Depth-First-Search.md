@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Depth First Search(DFS)
-categories: Algorithm
+categories: algorithm
 tags: [algorithm, search]
 ---
 탐색 트리의 수직 방향으로 점차 깊은 곳까지 목표노드를 찾아 탐색해 나가는 기법 (BackTracking 존재) <br>

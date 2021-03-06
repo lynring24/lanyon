@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Binary Search(iteration/recursion)
-categories: Algorithm
+categories: algorithm
+sort: [algorithm, search]
 ---
 Binary Search는 길이 n의 정렬된 (정수) 배열 중에서 key의 인덱스 위치를 알려준다.
 + sorted array

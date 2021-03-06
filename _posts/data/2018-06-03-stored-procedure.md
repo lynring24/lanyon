@@ -1,7 +1,8 @@
 ---
 layout: post
 title: stored procedure
-categories: Database
+categories: data
+tags: [database, sql]
 ---
 
 {% highlight jsp %}

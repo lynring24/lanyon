@@ -1,7 +1,8 @@
 ---
 layout: post
 title: statement
-categories: Database
+categories: data
+tags: [database, statement, data]
 ---
 # 연동 단계
 1. Driver Manager : class.forName("드라이버 이름") 또는 DriverManager.registerDriver("드라이버 이름");

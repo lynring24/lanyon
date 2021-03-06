@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Breadth First Search(BFS)
-categories: Algorithm
+categories: algorithm
 sort: [algorithm, search]
 ---
 탐색 트리의 수평 방향으로 루트 노드부터 목표노드까지 탐색을 진행 <br>

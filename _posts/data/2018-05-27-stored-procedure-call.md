@@ -1,7 +1,8 @@
 ---
 layout: post
 title: call stored procedure 
-categories: Database
+categories: data
+tags: [database, jdbc]
 ---
 
 {% highlight java %}
