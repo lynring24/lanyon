@@ -5,13 +5,10 @@ layout: default
 <div class="post">
   <h2 class="post-title">{{ page.title }}</h2>
   <span class="post-date">{{ page.date | date_to_string }}</span>
-  {% include post_tags.html %}
-  {{ content }}
   {% if page.tags %}
-   {% for tag in page.tags %}
-   <span class="tag">{{ tag }}</span>
-   {% endfor %}
+    {% include post_tags.html %}
   {% endif %}
+  {{ content }}
 </div>
 
 <div class="related">
