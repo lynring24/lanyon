@@ -14,7 +14,7 @@ The data flows into the host by RNIC
 The RNIC of host pass the data to DMA of host and paste.  
 ```
 
-![sw](../images/RMDA.PNG)
+![sw](/assets/img/RMDA.PNG)
 
 <pre>
 There are two types of RDMA: one-sided and two-sided.
