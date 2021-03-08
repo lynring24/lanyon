@@ -9,11 +9,12 @@ layout: default
     {% include post_tags.html %}
   {% endif %}
   <!-- scrollspy -->
-  <article class="post-article">
+  <aside class="sidebar__right sticky" styte="height: auto !important;">
     <div class="toc">
-      <a href="#">&lt;맨 위로&gt;</a>
-      {% include toc.html html=content %}
+      <a href="#">맨 위로</a>
+      {% include toc.html html=content sanitize=true h_min=1 h_max=2 %}
     </div>
+  </aside>
     {{ content }}
   </article>
 </div>
