@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  list macro in C
-categories: Kernel
+categories: OS
+tags: [os, kernel, system]
 ---
 Interesting in C is that the link is implemented inside structure rather than the structure itself became a part of the list. 
 Feels like each item is dangling on each node. 
